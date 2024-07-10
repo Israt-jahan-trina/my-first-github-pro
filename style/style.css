@@ -20,6 +20,7 @@ text-align: center;
 border-radius: 8px;
 background: rgb(82, 195, 3);
 border: none;
+cursor: pointer;
 }
 #hero{
     height: 634px;
@@ -30,10 +31,12 @@ border: none;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 }
 
 #hero .hero-content{
-    width: 429px
+    width: 429px;
+    
 }
 
 #hero .hero-content .subtitle{
@@ -47,6 +50,7 @@ text-align: center;
 color: rgb(255, 255, 255);
 opacity: 0.8;
 margin-bottom: 6px;
+
 }
 #hero .hero-content .title{
 color: rgb(255, 255, 255);
@@ -68,4 +72,57 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
 margin-bottom: 24px;
+}
+
+#card-box{
+    width: 884px;
+    margin: 10px auto;
+}
+
+#card-box .title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 700;
+line-height:28px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .subtitle{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-top: 50px;
+}
+.card-container{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+font-family: Work Sans;
+
+}
+.card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+.card .image-box{
+    width: 200px;
+}
+.card .image-box img{
+    width: 90%;
+}
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 16px 8px 16px;
+
 }
